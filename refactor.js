@@ -45,6 +45,7 @@ var callNtimes = function(callback, n) {
 /////////////////////////////////////
 
 /////////////////////////////////////8
+(function(){
 var score = 0;
 
 var increaseScore = function() {
@@ -54,6 +55,7 @@ var increaseScore = function() {
 var decreaseScore = function() {
   score--;
 };
+}();
 /////////////////////////////////////
 
 /////////////////////////////////////9
